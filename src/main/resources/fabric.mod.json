@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "johan-carpet",
+  "version": "${version}",
+
+  "name": "Johan Carpet Addon",
+  "description": "A carpet extension made by JohanVonElectrum in 1.18",
+  "authors": [
+    "JohanVonElectrum"
+  ],
+  "contributors": [
+    "FracturedCode"
+  ],
+  "contact": {
+    "sources": "https://github.com/JohanVonElectrum/Johan-Carpet"
+  },
+
+  "license": "MIT",
+  "icon": "assets/johan_carpet/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "johan_carpet.mixins.json"
+  ],
+  "accessWidener": "johan_carpet.accesswidener",
+
+  "depends": {
+    "minecraft": "1.18.x",
+    "fabricloader": ">=0.12.8",
+    "carpet": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/TXcPxmC2TT",
+        "Twitter": "https://twitter.com/Johan_V_E",
+        "Twitch": "https://www.twitch.tv/johanvonelectrum",
+        "YouTube": "https://www.youtube.com/c/JohanVonElectrum"
+      },
+      "parent": "carpet"
+    }
+  }
+}
